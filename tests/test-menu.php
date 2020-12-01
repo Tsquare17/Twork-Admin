@@ -24,7 +24,7 @@ class MenuTest extends WP_UnitTestCase
             'role' => 'administrator',
         ]));
 
-        update_option( 'siteurl', 'http://example.com' );
+        update_option('siteurl', 'http://example.com');
 
         new TestMenu();
 
